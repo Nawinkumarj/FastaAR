@@ -16,16 +16,17 @@ body {
 
 @media (max-width: 600px) {
     body {
-        background-image: url(Img/smalls01.jpg);
+        background-image: url(Img/lssss.jpg);
         background-position: center;
         background-size: cover;
         overflow: hidden;
         height: 100%;
     }   
     .rotateimg .pizza {
-        width: 90% !important;
-        height: 90% !important;
-        left: 6% !important;
+        width: 85% !important;
+        height: 85% !important;
+        left: 6.8% !important;
+        top: 90px !important;
     }
     .duplicate {
         position: relative;
