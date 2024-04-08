@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Italianno&family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Reggae+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url(Img/mainbg.jpg);
+    height:90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url(Img/mob.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        height: 100vh;
+    }   
+    .Quotes .italic-font {
+        position: absolute;
+        bottom: 310px;
+        left: 40px;
+        font-family: "Italianno", cursive;
+        font-size: 33px; 
+        color: #f39c12;
+        letter-spacing: 3px;
+    }
+    .Quotes .text{
+        position: absolute;
+        bottom: 290px;
+        width: 450px;
+        left: 40px;
+        font-family: "Madimi One", sans-serif;
+        color: #ecf0f1;
+        font-size: 23px;
+        text-transform: uppercase;
+    }
+    .Quotes .lines{
+        position: absolute;
+        text-align: justify;
+        width: 340px;
+        bottom: 90px;
+        left: 40px;
+        color: rgb(199, 20, 20);
+        font-size: 21px;
+        line-height: 33px;
+    }
+}
+#ar-menu{
+    overflow: hidden;
+    width: 100% !important;
+    height: 100vh;
+}
+
+    /* Rotating Img */
+    
+    /* .duplicate {
+        position: absolute;
+        bottom: 150px;
+        z-index: 1;
+        left: 1065px;
+        width: 420px;
+        height: 420px;
+        border-radius: 60%;
+        padding: 90px;
+        border: 3px dashed rgb(255, 255, 255);
+    } */
+    .rotateimg .pizza{
+        position: relative;
+        z-index: 2;
+        top: 80px;
+        left: 1085px;
+        width: 550px;
+        height: 550px;
+        border-radius: 60%;
+        padding: 30px;
+        animation: spin 9s linear infinite;
+    }
+    @keyframes spin {
+        0%   {-webkit-transform: rotate(0deg)}
+        100% {-webkit-transform: rotate(360deg)}
+    }
+    
+    .plater-left {
+        position: relative;
+        bottom: 235px;
+        left: 1060px;
+        z-index: 2;
+        width: 85px;
+    }
+    .plater-top {
+        position: relative;
+        bottom: 585px;
+        width: 85px;
+        left: 1310px;
+        z-index: 2;
+    }
+    .plater-bottom {
+        position: relative;
+        bottom: 245px;
+        width: 85px;
+        left: 1320px;
+        z-index: 2;
+    }
+    .plater-right {
+        position: relative;
+        bottom:415px;
+        width: 85px;
+        left: 1570px;
+        z-index: 2;
+    }
+
+        /* font */
+
+    .italic-font {
+        position: absolute;
+        bottom: 430px;
+        left: 120px;
+        color: white;
+        text-align: center;
+        font-family: "Italianno", cursive;
+        font-size: 55px; 
+        color: #f39c12;
+        letter-spacing: 3px;
+    }
+    .text{
+        position: absolute;
+        bottom: 390px;
+        left: 120px;
+        font-family: "Madimi One", sans-serif;
+        color: #ecf0f1;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    .lines{
+        position: absolute;
+        width: 40%;
+        bottom: 250px;
+        left: 120px;
+        color: white;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+
+
+
+
+ 
