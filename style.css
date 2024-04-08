@@ -34,7 +34,7 @@ body {
     .Quotes .text{
         position: absolute;
         bottom: 290px;
-        width: 450px;
+        width: 300px;
         left: 40px;
         font-family: "Madimi One", sans-serif;
         color: #ecf0f1;
@@ -44,7 +44,7 @@ body {
     .Quotes .lines{
         position: absolute;
         text-align: justify;
-        width: 340px;
+        width: 300px;
         bottom: 90px;
         left: 40px;
         color: rgb(199, 20, 20);
