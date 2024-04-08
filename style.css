@@ -16,11 +16,11 @@ body {
 
 @media (max-width: 600px) {
     body {
-        background-image: url(Img/small.jpg);
+        background-image: url(Img/smalls01.jpg);
         background-position: center;
         background-size: cover;
         overflow: hidden;
-        height: 100vh;
+        height: 100%;
     }   
     .Quotes .italic-font {
         position: absolute;
