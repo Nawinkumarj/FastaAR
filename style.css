@@ -22,6 +22,19 @@ body {
         overflow: hidden;
         height: 100%;
     }   
+    .rotateimg .pizza {
+        width: 90% !important;
+        height: 90% !important;
+        left: 6% !important;
+    }
+    .duplicate {
+        position: relative;
+        left: 45px;
+        bottom: 485px;
+        border-radius: 60%;
+        padding: 170px;
+        border: 2px dashed rgb(255, 255, 255);
+    }
     .Quotes .italic-font {
         position: absolute;
         bottom: 305px;
