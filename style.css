@@ -20,7 +20,7 @@ body {
         background-position: center;
         background-size: cover;
         overflow: hidden;
-        height: 75vh;
+        height: 80vh;
     }   
     .rotateimg .pizza {
         width: 85% !important;
