@@ -13,8 +13,59 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-@media (max-width: 385px) {
+@media (max-width:300px) {
+    body {
+        background-image: url(Img/smalls07.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        height: 80vh;
+    }   
+    .rotateimg .pizza {
+        width: 85% !important;
+        height: 85% !important;
+        left: 7.2% !important;
+        top: 45px !important;
+    }
+    .duplicate {
+        position: relative;
+        left: 45px;
+        bottom: 485px;
+        border-radius: 60%;
+        padding: 170px;
+        border: 2px dashed rgb(255, 255, 255);
+    }
+    .Quotes .italic-font {
+        position: absolute;
+        bottom: 270px;
+        left: 40px;
+        font-family: "Italianno", cursive;
+        font-size: 33px; 
+        color: #ce12c4;
+        letter-spacing: 3px;
+    }
+    .Quotes .text{
+        position: absolute;
+        bottom: 245px;
+        width: 300px;
+        left: 40px;
+        font-family: "Madimi One", sans-serif;
+        color: #ecf0f1;
+        font-size: 23px;
+        text-transform: uppercase;
+    }
+    .Quotes .lines{
+        position: absolute;
+        text-align: justify;
+        width: 305px;
+        bottom: 65px;
+        left: 40px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+@media (min-width:301px) and (max-width: 385px) {
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
