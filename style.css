@@ -13,19 +13,19 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media (max-width:320px) {
+@media (max-width:320px) {  /*small*/
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
         background-size: cover;
         overflow: hidden;
-        height: 80vh;
+        height: 80%;
     }   
     .rotateimg .pizza {
         width: 85% !important;
         height: 85% !important;
         left: 7.2% !important;
-        top: 45px !important;
+        top: 160px !important;
     }
     .duplicate {
         position: relative;
@@ -40,8 +40,8 @@ body {
         bottom: 270px;
         left: 40px;
         font-family: "Italianno", cursive;
-        font-size: 33px; 
-        color: #ce12c4;
+        font-size: 30px;
+        color: #eff30f;
         letter-spacing: 3px;
     }
     .Quotes .text{
@@ -51,17 +51,17 @@ body {
         left: 40px;
         font-family: "Madimi One", sans-serif;
         color: #ecf0f1;
-        font-size: 23px;
+        font-size: 18px;
         text-transform: uppercase;
     }
     .Quotes .lines{
         position: absolute;
         text-align: justify;
-        width: 305px;
-        bottom: 65px;
+        width: 230px;
+        bottom: 80px;
         left: 40px;
         color: rgb(255, 255, 255);
-        font-size: 18px;
+        font-size: 15px;
         line-height: 25px;
     }
 }
