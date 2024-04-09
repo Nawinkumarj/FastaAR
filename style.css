@@ -41,13 +41,13 @@ body {
         left: 40px;
         font-family: "Italianno", cursive;
         font-size: 30px;
-        color: #eff30f;
+        color: #f39c12;
         letter-spacing: 3px;
     }
     .Quotes .text{
         position: absolute;
         bottom: 245px;
-        width: 300px;
+        width: 280x;
         left: 40px;
         font-family: "Madimi One", sans-serif;
         color: #ecf0f1;
@@ -65,13 +65,13 @@ body {
         line-height: 25px;
     }
 }
-@media (min-width:321px) and (max-width: 385px) {
+@media (min-width:321px) and (max-width: 385px) {   /*Medium*/
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
         background-size: cover;
         overflow: hidden;
-        height: 80vh;
+        height: 90vh;
     }   
     .rotateimg .pizza {
         width: 85% !important;
@@ -117,7 +117,7 @@ body {
         line-height: 25px;
     }
 }
-@media (min-width:386px) and (max-width:600px) {    /*Iphone*/
+@media (min-width:386px) and (max-width:600px) {        /*I phone*/
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
@@ -138,7 +138,7 @@ body {
         left: 40px;
         font-family: "Italianno", cursive;
         font-size: 33px; 
-        color: #11adeb;
+        color: #f39c12;
         letter-spacing: 3px;
     }
     .Quotes .text{
@@ -157,7 +157,7 @@ body {
         width: 305px;
         bottom: 65px;
         left: 40px;
-        color: rgb(199, 20, 20);
+        color: white;
         font-size: 18px;
         line-height: 25px;
     }
