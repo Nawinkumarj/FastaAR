@@ -66,7 +66,7 @@ body {
         line-height: 25px;
     }
 }
-@media (min-width:386px) and (max-width:600px) {
+@media (min-width:386px) and (max-width:600px) {    /*Iphone*/
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
@@ -78,7 +78,7 @@ body {
         width: 85% !important;
         height: 85% !important;
         left: 7.2% !important;
-        top: 40px !important;
+        top: 38px !important;
     }
     .duplicate {
         position: relative;
@@ -90,7 +90,7 @@ body {
     }
     .Quotes .italic-font {
         position: absolute;
-        bottom: 250px;
+        bottom: 280px;
         left: 40px;
         font-family: "Italianno", cursive;
         font-size: 33px; 
@@ -100,7 +100,7 @@ body {
     .Quotes .text{
         position: absolute;
         bottom: 205px;
-        width: 310px;
+        width: 320px;
         left: 40px;
         font-family: "Madimi One", sans-serif;
         color: #ecf0f1;
