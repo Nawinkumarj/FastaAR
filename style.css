@@ -68,6 +68,7 @@ body {
 @media (min-width:321px) and (max-width: 385px) {   /*Medium*/
     body {
         background-image: url(Img/smalls07.jpg);
+        
         background-position: center;
         background-size: cover;
         overflow: hidden;
