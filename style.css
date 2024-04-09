@@ -14,13 +14,13 @@ body {
     background-repeat: no-repeat;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     body {
-        background-image: url(Img/lssss.jpg);
+        background-image: url(Img/smalls05.jpg);
         background-position: center;
         background-size: cover;
         overflow: hidden;
-        height: 100%;
+        height: 75vh;
     }   
     .rotateimg .pizza {
         width: 85% !important;
@@ -38,7 +38,7 @@ body {
     }
     .Quotes .italic-font {
         position: absolute;
-        bottom: 305px;
+        bottom: 365px;
         left: 40px;
         font-family: "Italianno", cursive;
         font-size: 33px; 
@@ -47,7 +47,7 @@ body {
     }
     .Quotes .text{
         position: absolute;
-        bottom: 280px;
+        bottom: 340px;
         width: 300px;
         left: 40px;
         font-family: "Madimi One", sans-serif;
@@ -58,12 +58,12 @@ body {
     .Quotes .lines{
         position: absolute;
         text-align: justify;
-        width: 300px;
-        bottom: 50px;
+        width: 305px;
+        bottom: 185px;
         left: 40px;
         color: rgb(199, 20, 20);
-        font-size: 21px;
-        line-height: 33px;
+        font-size: 18px;
+        line-height: 25px;
     }
 }
 #ar-menu{
