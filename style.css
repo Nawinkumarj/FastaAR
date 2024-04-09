@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media (max-width:300px) {
+@media (max-width:320px) {
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
@@ -65,7 +65,7 @@ body {
         line-height: 25px;
     }
 }
-@media (min-width:301px) and (max-width: 385px) {
+@media (min-width:321px) and (max-width: 385px) {
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
