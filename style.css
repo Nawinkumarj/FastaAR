@@ -71,7 +71,7 @@ body {
         background-position: center;
         background-size: cover;
         overflow: hidden;
-        height: 90vh;
+        height: 100%;
     }   
     .rotateimg .pizza {
         width: 85% !important;
@@ -99,21 +99,21 @@ body {
     .Quotes .text{
         position: absolute;
         bottom: 245px;
-        width: 300px;
+        width: 270px;
         left: 40px;
         font-family: "Madimi One", sans-serif;
         color: #ecf0f1;
-        font-size: 23px;
+        font-size: 21px;
         text-transform: uppercase;
     }
     .Quotes .lines{
         position: absolute;
         text-align: justify;
-        width: 305px;
+        width: 285px;
         bottom: 65px;
         left: 40px;
         color: rgb(255, 255, 255);
-        font-size: 18px;
+        font-size: 15px;
         line-height: 25px;
     }
 }
