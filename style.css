@@ -47,7 +47,7 @@ body {
     }
     .Quotes .text{
         position: absolute;
-        bottom: 265px;
+        bottom: 205px;
         width: 300px;
         left: 40px;
         font-family: "Madimi One", sans-serif;
@@ -59,7 +59,7 @@ body {
         position: absolute;
         text-align: justify;
         width: 305px;
-        bottom: 115px;
+        bottom: 65px;
         left: 40px;
         color: rgb(199, 20, 20);
         font-size: 18px;
