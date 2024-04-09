@@ -66,6 +66,58 @@ body {
         line-height: 25px;
     }
 }
+@media (min-width:481px) and (max-width:600px) {
+    body {
+        background-image: url(Img/smalls07.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        height: 80vh;
+    }   
+    .rotateimg .pizza {
+        width: 85% !important;
+        height: 85% !important;
+        left: 7.2% !important;
+        top: 40px !important;
+    }
+    .duplicate {
+        position: relative;
+        left: 45px;
+        bottom: 485px;
+        border-radius: 60%;
+        padding: 170px;
+        border: 2px dashed rgb(255, 255, 255);
+    }
+    .Quotes .italic-font {
+        position: absolute;
+        bottom: 250px;
+        left: 40px;
+        font-family: "Italianno", cursive;
+        font-size: 33px; 
+        color: #46f312;
+        letter-spacing: 3px;
+    }
+    .Quotes .text{
+        position: absolute;
+        bottom: 205px;
+        width: 310px;
+        left: 40px;
+        font-family: "Madimi One", sans-serif;
+        color: #ecf0f1;
+        font-size: 23px;
+        text-transform: uppercase;
+    }
+    .Quotes .lines{
+        position: absolute;
+        text-align: justify;
+        width: 305px;
+        bottom: 65px;
+        left: 40px;
+        color: rgb(199, 20, 20);
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
 #ar-menu{
     overflow: hidden;
     width: 100% !important;
