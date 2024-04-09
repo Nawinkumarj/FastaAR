@@ -358,3 +358,19 @@ and (orientation: portrait){
         height: 100px;
     }
 }
+
+
+
+
+
+
+
+
+.duplicate {
+        position: relative;
+        left: 45px;
+        bottom: 485px;
+        border-radius: 60%;
+        padding: 170px;
+        border: 2px dashed rgb(255, 255, 255);
+    }

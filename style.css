@@ -26,7 +26,7 @@ body {
         width: 85% !important;
         height: 85% !important;
         left: 7.2% !important;
-        top: 35px !important;
+        top: 40px !important;
     }
     .duplicate {
         position: relative;
@@ -38,7 +38,7 @@ body {
     }
     .Quotes .italic-font {
         position: absolute;
-        bottom: 250px;
+        bottom: 270px;
         left: 40px;
         font-family: "Italianno", cursive;
         font-size: 33px; 
@@ -47,7 +47,7 @@ body {
     }
     .Quotes .text{
         position: absolute;
-        bottom: 205px;
+        bottom: 220px;
         width: 300px;
         left: 40px;
         font-family: "Madimi One", sans-serif;
@@ -80,26 +80,19 @@ body {
         left: 7.2% !important;
         top: 38px !important;
     }
-    .duplicate {
-        position: relative;
-        left: 45px;
-        bottom: 485px;
-        border-radius: 60%;
-        padding: 170px;
-        border: 2px dashed rgb(255, 255, 255);
-    }
+    
     .Quotes .italic-font {
         position: absolute;
-        bottom: 280px;
+        bottom: 270px;
         left: 40px;
         font-family: "Italianno", cursive;
         font-size: 33px; 
-        color: #0b9bd4;
+        color: #11adeb;
         letter-spacing: 3px;
     }
     .Quotes .text{
         position: absolute;
-        bottom: 205px;
+        bottom: 215px;
         width: 320px;
         left: 40px;
         font-family: "Madimi One", sans-serif;
