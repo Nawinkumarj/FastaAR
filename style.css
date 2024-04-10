@@ -170,7 +170,8 @@ body {
       background-position: center;
       background-size: cover;
       overflow: hidden;
-      height: auto;
+      height: 100%;
+      min-height: 99%;
     }
     .bg-logo {
         display: flex;
@@ -197,7 +198,7 @@ body {
 
     
     .Quotes .italic-font {
-        top: 63%;
+        top: 66%;
         left: 10%;
         font-family: "Italianno", cursive;
         font-size: 33px;
@@ -205,7 +206,7 @@ body {
         letter-spacing: 3px;
     }
     .Quotes .text {
-        top: 69%;
+        top: 72%;
         left: 10%;
         width: auto;
         font-family: "Madimi One", sans-serif;
@@ -216,7 +217,7 @@ body {
     .Quotes .lines {
       text-align: justify;
       width: auto;
-      top: 75%;
+      top: 79%;
       left: 40px;
       color: rgb(255, 255, 255);
       font-size: 15px;
