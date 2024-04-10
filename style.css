@@ -176,20 +176,20 @@ body {
       width: 80% !important;
       height: 80% !important;
       left: 10%  !important;
-      top: 100px !important;
+      top: 80px !important;
       border: 2px dashed rgb(255, 255, 255);
       padding: 5px !important;
     }
 
-    .duplicate {
+    /* .duplicate {
       left: 45px;
       bottom: 485px;
       border-radius: 60%;
       padding: 170px;
       border: 2px dashed rgb(255, 255, 255);
-    }
+    } */
     .Quotes .italic-font {
-        top: 60%;
+        top: 63%;
         height: auto;
         left: 40px;
         font-family: "Italianno", cursive;
@@ -198,7 +198,7 @@ body {
         letter-spacing: 3px;
     }
     .Quotes .text {
-        top: 66%;
+        top: 69%;
         width: auto;
         left: 40px;
         font-family: "Madimi One", sans-serif;
@@ -209,7 +209,7 @@ body {
     .Quotes .lines {
       text-align: justify;
       width: auto;
-      top: 72%;
+      top: 75%;
       left: 40px;
       color: rgb(255, 255, 255);
       font-size: 15px;
