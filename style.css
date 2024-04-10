@@ -172,11 +172,20 @@ body {
       overflow: hidden;
       height: auto;
     }
+    .bg-logo {
+        display: flex;
+        justify-content: center; /* Horizontal centering */
+    }
+    .fs-logo{
+        width: 90px;
+        height: 90px;
+        float: left;
+    }
     .rotateimg .pizza {
       width: 80% !important;
       height: 80% !important;
       left: 10%  !important;
-      top: 80px !important;
+      top: 30px !important;
       border: 2px dashed rgb(255, 255, 255);
       padding: 5px !important;
     }
