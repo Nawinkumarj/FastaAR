@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media (max-width:320px) {  /*small*/
+ /*@media (max-width:320px) {  /*small*
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
@@ -65,7 +65,7 @@ body {
         line-height: 25px;
     }
 }
-@media (min-width:321px) and (max-width: 385px) {   /*Medium*/
+@media (min-width:321px) and (max-width: 385px) {   /*Medium*
     body {
         background-image: url(Img/smalls07.jpg);
         
@@ -118,7 +118,7 @@ body {
         line-height: 25px;
     }
 }
-@media (min-width:386px) and (max-width:600px) {        /*I phone*/
+@media (min-width:386px) and (max-width:600px) {        /*I phone*
     body {
         background-image: url(Img/smalls07.jpg);
         background-position: center;
@@ -162,7 +162,66 @@ body {
         font-size: 18px;
         line-height: 25px;
     }
-}
+} */
+@media (max-width: 767px) {
+    /* Your CSS styles for mobile devices here */
+    body {
+      background-image: url(Img/smalls01.jpg);
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+      height: auto;
+    }
+    .rotateimg .pizza {
+      width: 100% !important;
+      height: 100% !important;
+      left: 0px  !important;
+      top: 100px !important;
+      border: 2px dashed rgb(255, 255, 255);
+      padding: 5px !important;
+    }
+
+    .duplicate {
+      position: relative;
+      left: 45px;
+      bottom: 485px;
+      border-radius: 60%;
+      padding: 170px;
+      border: 2px dashed rgb(255, 255, 255);
+    }
+    .Quotes .italic-font {
+      position: absolute;
+      bottom: 170px;
+      
+      height: auto;
+      left: 40px;
+      font-family: "Italianno", cursive;
+      font-size: 33px;
+      color: #4ed410;
+      letter-spacing: 3px;
+    }
+    .Quotes .text {
+      position: absolute;
+      bottom: 145px;
+      width: auto;
+      left: 40px;
+      font-family: "Madimi One", sans-serif;
+      color: #ecf0f1;
+      font-size: 21px;
+      text-transform: uppercase;
+    }
+    .Quotes .lines {
+      position: absolute;
+      text-align: justify;
+      width: auto;
+      bottom: 15px;
+      left: 40px;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+  
 #ar-menu{
     overflow: hidden;
     width: 100% !important;
