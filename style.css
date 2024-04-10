@@ -173,16 +173,15 @@ body {
       height: auto;
     }
     .rotateimg .pizza {
-      width: 100% !important;
-      height: 100% !important;
-      left: 0px  !important;
+      width: 80% !important;
+      height: 80% !important;
+      left: 10%  !important;
       top: 100px !important;
       border: 2px dashed rgb(255, 255, 255);
       padding: 5px !important;
     }
 
     .duplicate {
-      position: relative;
       left: 45px;
       bottom: 485px;
       border-radius: 60%;
@@ -190,31 +189,27 @@ body {
       border: 2px dashed rgb(255, 255, 255);
     }
     .Quotes .italic-font {
-      position: absolute;
-      bottom: 170px;
-      
-      height: auto;
-      left: 40px;
-      font-family: "Italianno", cursive;
-      font-size: 33px;
-      color: #4ed410;
-      letter-spacing: 3px;
+        top: 60%;
+        height: auto;
+        left: 40px;
+        font-family: "Italianno", cursive;
+        font-size: 33px;
+        color: #4ed410;
+        letter-spacing: 3px;
     }
     .Quotes .text {
-      position: absolute;
-      bottom: 145px;
-      width: auto;
-      left: 40px;
-      font-family: "Madimi One", sans-serif;
-      color: #ecf0f1;
-      font-size: 21px;
-      text-transform: uppercase;
+        top: 66%;
+        width: auto;
+        left: 40px;
+        font-family: "Madimi One", sans-serif;
+        color: #ecf0f1;
+        font-size: 21px;
+        text-transform: uppercase;
     }
     .Quotes .lines {
-      position: absolute;
       text-align: justify;
       width: auto;
-      bottom: 15px;
+      top: 72%;
       left: 40px;
       color: rgb(255, 255, 255);
       font-size: 15px;
