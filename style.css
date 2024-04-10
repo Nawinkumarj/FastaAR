@@ -174,33 +174,31 @@ body {
     }
     .bg-logo {
         display: flex;
-        justify-content: center; /* Horizontal centering */
+        justify-content: center; 
     }
     .fs-logo{
         width: 90px;
         height: 90px;
-        float: left;
+    }
+    .rotateimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .rotateimg .pizza {
       width: 80% !important;
+      max-width: 300px !important;
       height: 80% !important;
-      left: 10%  !important;
+      left: 0  !important;
       top: 30px !important;
       border: 2px dashed rgb(255, 255, 255);
       padding: 5px !important;
     }
 
-    /* .duplicate {
-      left: 45px;
-      bottom: 485px;
-      border-radius: 60%;
-      padding: 170px;
-      border: 2px dashed rgb(255, 255, 255);
-    } */
+    
     .Quotes .italic-font {
         top: 63%;
-        height: auto;
-        left: 40px;
+        left: 10%;
         font-family: "Italianno", cursive;
         font-size: 33px;
         color: #4ed410;
@@ -208,8 +206,8 @@ body {
     }
     .Quotes .text {
         top: 69%;
+        left: 10%;
         width: auto;
-        left: 40px;
         font-family: "Madimi One", sans-serif;
         color: #ecf0f1;
         font-size: 21px;
