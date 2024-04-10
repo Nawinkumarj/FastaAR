@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Italianno&family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Italianno&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Reggae+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,196 +14,49 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
- /*@media (max-width:320px) {  /*small*
+
+@media screen and (max-width: 767px) {
+    /* Your CSS styles for mobile device */
     body {
-        background-image: url(Img/smalls07.jpg);
-        background-position: center;
-        background-size: cover;
-        overflow: hidden;
-        height: 80%;
-    }   
-    .rotateimg .pizza {
-        width: 85% !important;
-        height: 85% !important;
-        left: 7.2% !important;
-        top: 160px !important;
-    }
-    .duplicate {
-        position: relative;
-        left: 45px;
-        bottom: 485px;
-        border-radius: 60%;
-        padding: 170px;
-        border: 2px dashed rgb(255, 255, 255);
-    }
-    .Quotes .italic-font {
-        position: absolute;
-        bottom: 270px;
-        left: 40px;
-        font-family: "Italianno", cursive;
-        font-size: 30px;
-        color: #f39c12;
-        letter-spacing: 3px;
-    }
-    .Quotes .text{
-        position: absolute;
-        bottom: 245px;
-        width: 280x;
-        left: 40px;
-        font-family: "Madimi One", sans-serif;
-        color: #14b5dd;
-        font-size: 18px;
-        text-transform: uppercase;
-    }
-    .Quotes .lines{
-        position: absolute;
-        text-align: justify;
-        width: 230px;
-        bottom: 80px;
-        left: 40px;
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        line-height: 25px;
-    }
-}
-@media (min-width:321px) and (max-width: 385px) {   /*Medium*
-    body {
-        background-image: url(Img/smalls07.jpg);
-        
+        background-image: url(Img/smalls01.jpg);
         background-position: center;
         background-size: cover;
         overflow: hidden;
         height: 100%;
-    }   
-    .rotateimg .pizza {
-        width: 85% !important;
-        height: 85% !important;
-        left: 7.2% !important;
-        top: 90px !important;
-    }
-    .duplicate {
-        position: relative;
-        left: 45px;
-        bottom: 485px;
-        border-radius: 60%;
-        padding: 170px;
-        border: 2px dashed rgb(255, 255, 255);
-    }
-    .Quotes .italic-font {
-        position: absolute;
-        bottom: 170px;
-        left: 40px;
-        font-family: "Italianno", cursive;
-        font-size: 33px; 
-        color: #4ed410;
-        letter-spacing: 3px;
-    }
-    .Quotes .text{
-        position: absolute;
-        bottom: 145px;
-        width: 270px;
-        left: 40px;
-        font-family: "Madimi One", sans-serif;
-        color: #ecf0f1;
-        font-size: 21px;
-        text-transform: uppercase;
-    }
-    .Quotes .lines{
-        position: absolute;
-        text-align: justify;
-        width: 275px;
-        bottom: 15px;
-        left: 40px;
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        line-height: 25px;
-    }
-}
-@media (min-width:386px) and (max-width:600px) {        /*I phone*
-    body {
-        background-image: url(Img/smalls07.jpg);
-        background-position: center;
-        background-size: cover;
-        overflow: hidden;
-        height: 80vh;
-    }   
-    .rotateimg .pizza {
-        width: 85% !important;
-        height: 85% !important;
-        left: 7.2% !important;
-        top: 38px !important;
-    }
-    
-    .Quotes .italic-font {
-        position: absolute;
-        bottom: 260px;
-        left: 40px;
-        font-family: "Italianno", cursive;
-        font-size: 33px; 
-        color: #f39c12;
-        letter-spacing: 3px;
-    }
-    .Quotes .text{
-        position: absolute;
-        bottom: 220px;
-        width: 320px;
-        left: 40px;
-        font-family: "Madimi One", sans-serif;
-        color: #ecf0f1;
-        font-size: 23px;
-        text-transform: uppercase;
-    }
-    .Quotes .lines{
-        position: absolute;
-        text-align: justify;
-        width: 305px;
-        bottom: 65px;
-        left: 40px;
-        color: white;
-        font-size: 18px;
-        line-height: 25px;
-    }
-} */
-@media (max-width: 767px) {
-    /* Your CSS styles for mobile devices here */
-    body {
-      background-image: url(Img/smalls01.jpg);
-      background-position: center;
-      background-size: cover;
-      overflow: hidden;
-      height: 100%;
-      min-height: 99%;
+        min-width: 100%;
+        min-height: 99%;
     }
     .bg-logo {
         display: flex;
         justify-content: center; 
     }
     .fs-logo{
-        width: 90px;
-        height: 90px;
+        width: 120px !important;
+        height: 120px !important;
     }
     .rotateimg {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
     .rotateimg .pizza {
-      width: 80% !important;
-      max-width: 300px !important;
-      height: 80% !important;
-      left: 0  !important;
-      top: 30px !important;
-      border: 2px dashed rgb(255, 255, 255);
-      padding: 5px !important;
+        position: relative;
+        width: 80% !important;
+        max-width: 300px !important;
+        height: 80% !important;
+        left: 0  !important;
+        top: 90px !important;
+        border: 2px dashed rgb(255, 255, 255);
+        padding: 5px !important;
     }
 
-    
     .Quotes .italic-font {
         top: 66%;
         left: 10%;
         font-family: "Italianno", cursive;
         font-size: 33px;
-        color: #4ed410;
+        color: #f39c12;
         letter-spacing: 3px;
     }
     .Quotes .text {
@@ -215,111 +69,118 @@ body {
         text-transform: uppercase;
     }
     .Quotes .lines {
-      text-align: justify;
-      width: auto;
-      top: 79%;
-      left: 40px;
-      color: rgb(255, 255, 255);
-      font-size: 15px;
-      line-height: 25px;
+        text-align: justify;
+        width: 85%;
+        max-width: 390px;
+        top: 79%;
+        left: 10%;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        line-height: 25px;
     }
-  }
+    .menu-btn{
+        position: absolute;
+        right: 3%;
+        top: 60% !important;
+        z-index: 999;
+        background-color: #f39c12;
+        border: none;
+        color: white;
+        font-size: large;
+        padding: 10px;
+        font-family: "Josefin Sans", sans-serif;
+        box-shadow: 12px 5px 30px #f39d1298;
+    }
+}
   
 #ar-menu{
     overflow: hidden;
     width: 100% !important;
     height: 100vh;
 }
+.bg-logo {
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+}
+.fs-logo{
+    width: 10%;
+    height: 10%;
+}
+.menu-btn{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    z-index: 999;
+    border: none;
+    background-color: #f39c12;
+    font-size: large;
+    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.menu-btn a{
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: 400;
+}
+.menu-btn:hover{
+    background-color: black;
+    color: #ecf0f1;
+    font-size: larger;
+}
+/* Rotating Img */
+.rotateimg {
+    position: relative;
+} 
+.pizza{
+    position: relative;
+    z-index: 2;
+    top: 80px;
+    left: 1087px;
+    width: 550px;
+    height: 550px;
+    border-radius: 60%;
+    padding: 30px;
+    animation: spin 9s linear infinite;
+}
+@keyframes spin {
+    0%   {-webkit-transform: rotate(0deg)}
+    100% {-webkit-transform: rotate(360deg)}
+}
 
-    /* Rotating Img */
-    
-    /* .duplicate {
-        position: absolute;
-        bottom: 150px;
-        z-index: 1;
-        left: 1065px;
-        width: 420px;
-        height: 420px;
-        border-radius: 60%;
-        padding: 90px;
-        border: 3px dashed rgb(255, 255, 255);
-    } */
-    .rotateimg .pizza{
-        position: relative;
-        z-index: 2;
-        top: 80px;
-        left: 1085px;
-        width: 550px;
-        height: 550px;
-        border-radius: 60%;
-        padding: 30px;
-        animation: spin 9s linear infinite;
-    }
-    @keyframes spin {
-        0%   {-webkit-transform: rotate(0deg)}
-        100% {-webkit-transform: rotate(360deg)}
-    }
-    
-    .plater-left {
-        position: relative;
-        bottom: 235px;
-        left: 1060px;
-        z-index: 2;
-        width: 85px;
-    }
-    .plater-top {
-        position: relative;
-        bottom: 585px;
-        width: 85px;
-        left: 1310px;
-        z-index: 2;
-    }
-    .plater-bottom {
-        position: relative;
-        bottom: 245px;
-        width: 85px;
-        left: 1320px;
-        z-index: 2;
-    }
-    .plater-right {
-        position: relative;
-        bottom:415px;
-        width: 85px;
-        left: 1570px;
-        z-index: 2;
-    }
+    /* font */
 
-        /* font */
-
-    .italic-font {
-        position: absolute;
-        bottom: 430px;
-        left: 120px;
-        color: white;
-        text-align: center;
-        font-family: "Italianno", cursive;
-        font-size: 55px; 
-        color: #f39c12;
-        letter-spacing: 3px;
-    }
-    .text{
-        position: absolute;
-        bottom: 390px;
-        left: 120px;
-        font-family: "Madimi One", sans-serif;
-        color: #ecf0f1;
-        font-size: 36px;
-        text-transform: uppercase;
-    }
-    .lines{
-        position: absolute;
-        width: 40%;
-        bottom: 250px;
-        left: 120px;
-        color: white;
-        font-size: 28px;
-        line-height: 33px;
-    }
+.italic-font {
+    position: absolute;
+    bottom: 430px;
+    left: 120px;
+    color: white;
+    text-align: center;
+    font-family: "Italianno", cursive;
+    font-size: 55px; 
+    color: #f39c12;
+    letter-spacing: 3px;
+}
+.text{
+    position: absolute;
+    bottom: 390px;
+    left: 120px;
+    font-family: "Madimi One", sans-serif;
+    color: #ecf0f1;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.lines{
+    position: absolute;
+    width: 40%;
+    bottom: 250px;
+    left: 120px;
+    color: white;
+    font-size: 28px;
+    line-height: 33px;
+}
 
 
 
