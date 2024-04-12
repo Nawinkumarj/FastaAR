@@ -74,8 +74,8 @@ body {
     .menu-btn{
         position: absolute;
         top: 5% !important;
-        left: 75% !important;
-        width: fit-content;
+        left: 70% !important;
+        width: 120px;
         z-index: 999;
         background-color: #f39c12;
         border: none;
