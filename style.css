@@ -254,6 +254,7 @@ body {
         text-align: justify;
         font-size: 20px;
         width: 360px;
+        max-width: 330px;
     }
     
 }
