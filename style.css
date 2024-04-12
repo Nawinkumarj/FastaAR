@@ -80,11 +80,13 @@ body {
     }
     .menu-btn{
         position: absolute;
-        right: 3%;
-        top: 60% !important;
+        top: 6% !important;
+        left: 80% !important;
+        width: fit-content;
         z-index: 999;
         background-color: #f39c12;
         border: none;
+        border-radius: 30%;
         color: white;
         font-size: large;
         padding: 10px;
