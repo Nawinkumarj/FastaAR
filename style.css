@@ -166,6 +166,7 @@ body {
     color: #ecf0f1;
     font-size: 36px;
     text-transform: uppercase;
+    text-align: center;
 }
 .lines{
     width: 40%;
@@ -242,19 +243,21 @@ body {
 @media (max-width: 600px) {
     .Quotes {
         margin-left: 20px;
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .Quotes h3 {
         font-size: 40px;
+        margin-bottom: 20px;
     }
     .Quotes h4 {
-        font-size: 30px;
+        font-size: clamp(8px,25px,28px);
+        margin-bottom: 20px;
     }
     .Quotes p {
         text-align: justify;
-        font-size: 20px;
-        width: 360px;
-        max-width: 330px;
+        font-size: clamp(12px,4vw,62px);
+        max-width: max-content;
+        width: fit-content;
     }
     
 }
