@@ -8,7 +8,7 @@
 
 body {
     overflow-x: hidden;
-    background-image: url(Img/mainbg.jpg);
+    background-image: url(/Img/BG/mainbg\ desktop.png);
     height:90vh;
     background-position: center;
     background-size: cover;
@@ -18,7 +18,7 @@ body {
 @media screen and (max-width: 767px) {
     /* Your CSS styles for mobile device */
     body {
-        background-image: url(Img/mobile.jpg);
+        background-image: url(/Img/mobile.jpg);
         background-position: center;
         background-size: cover;
         overflow: hidden;
@@ -39,12 +39,19 @@ body {
         align-items: center;
     }
     .rotateimg .pizza {
+        display: block;
         width: 70% !important;
         max-width: 300px !important;
         height: 70% !important;
         margin-top: 120px !important;
         border: 2px dashed rgb(255, 255, 255);
         padding: 5px !important;
+        border-radius: 60%;
+        animation: spin 9s linear infinite;
+    }
+    @keyframes spin {
+        0%   {-webkit-transform: rotate(0deg)}
+        100% {-webkit-transform: rotate(360deg)}
     }
 
     .Quotes {
@@ -106,6 +113,7 @@ body {
     height: 10%;
 }
 .menu-btn{
+    width: 28%;
     position: absolute;
     top: 75%;
     left: 30%;
@@ -130,9 +138,9 @@ body {
 }
 /* Rotating Img */
 .pizza{
+    display: none;
+    position: relative;
     z-index: 2;
-    top: 80px;
-    left: 1087px;
     width: 550px;
     height: 550px;
     border-radius: 60%;
@@ -233,3 +241,46 @@ body {
     filter: blur(1.8px);
     transform: rotate(180deg);
 }
+
+/* Prabhu  */
+.Quotes {
+    display: none;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.soon {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.bg-logo {
+    display: none;
+}
+
+/* .rotateimg {
+    position: relative;
+}
+
+.rotateimg .pizza {
+    position: absolute;
+    left: 65.5%;
+    margin-top: 75px;
+} */
+
+@media (max-width: 765px) {
+    .Quotes,
+    .menu-btn,
+    .bg-logo
+    {
+        display: block;
+    }
+
+    .soon {
+        display: none;
+    }
+}
+
